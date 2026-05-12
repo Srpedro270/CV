@@ -1,0 +1,16 @@
+{
+  "nome": "Gustavo Silva",
+  "titulo": "Desenvolvedor Python Júnior",
+  "sobre": "Estou aprendendo Flask e GitHub",
+  "email": "gustavo@email.com",
+  "telefone": "(11) 99999-9999",
+  "habilidades": ["Python", "Flask", "HTML", "Git"],
+  "experiencia": [
+    {
+      "cargo": "Projeto CV Flask",
+      "periodo": "Maio 2026",
+      "descricao": "Criando meu primeiro site com Flask e JSON"
+    }
+  ]
+}
+
