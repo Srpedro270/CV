@@ -27,7 +27,7 @@ def send_request():
     msg['To'] = EMAIL_USER
 
     try:
-        with smtplib.SMTP('smtp.gmail.com', 587) as server:  # MUDOU AQUI
+        with smtplib.SMTP('smtp.gmail.com', 587) as server:  
             server.starttls()
             server.login(EMAIL_USER, EMAIL_PASS)
             server.send_message(msg)
